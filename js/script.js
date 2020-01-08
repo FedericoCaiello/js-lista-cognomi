@@ -14,3 +14,4 @@ for (var i = 0; i < cognome.length; i++) {
 
 // Scrivi anche la posizione della lista in cui  il nuovo utente si trova
 var posizione = cognome.indexOf(cognomeUtente) + 1;
+document.getElementById("lista_cognomi").innerHTML = '<li>' + cognomeUtente + '</li>' + posizione + contenuto ;
